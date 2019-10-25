@@ -1,0 +1,107 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 30px;
+}
+
+#container {
+    margin: 0 auto;
+    max-width: 1000px;
+    color: #2a2a2a
+}
+
+#title h1, #authors {
+    text-align: center;
+    font-weight: 300;
+}
+
+#title h1 {
+  font-size: 49px;
+}
+
+#authors {
+    width: 100%;
+    margin: 5px auto;
+}
+
+.keyword {
+    font-weight: 500;
+    color: #000;
+}
+
+#authors ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+#authors li {
+    display: inline-block;
+    margin: 0 8px;
+    font-size: 19px;
+}
+
+#teaser img {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.sect {
+    margin: 30px 0;
+}
+
+.sect .keyword, #links .keyword {
+    font-size: 14pt;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #004080;
+}
+
+#links ul {
+    list-style-type: none;		padding-left: 0;
+}
+
+#links li {
+    margin-bottom: 20px;
+}
+
+#links {
+  margin: 30px 0;
+}
+
+#video_figure {
+    width: 100%;
+    height: 24vw;
+    border: 0.4mm solid;
+    margin-top: 30px;
+}
+
+.author:visited {
+    color: #000;
+}
+
+#affiliation {
+  font-size: 10pt;
+  display: inline-block;
+}
+
+#bib {
+  padding: 10px;
+  border: 1px solid #cccccc;
+  background: #eaeaea;
+  margin: 0;
+  font-family: monospace;
+
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
