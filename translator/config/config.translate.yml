@@ -1,0 +1,10 @@
+src: data/input-tok-test-src.tsv
+tgt: data/input-tok-test-tgt.tsv
+output: /dev/null
+
+replace_unk: true
+verbose: true
+beam_size: 100
+n_best: 100
+gpu: 0
+batch_size: 1000     # Use 1 for large beam_size (~1000), reduces memory load

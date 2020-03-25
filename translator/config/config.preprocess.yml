@@ -1,0 +1,6 @@
+train_src: data/input-tok-train-shuf.tsv
+train_tgt: "-"
+valid_src: data/input-tok-eval.tsv
+valid_tgt: "-"
+save_data: out/preprocessed
+dynamic_dict: true

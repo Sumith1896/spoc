@@ -1,0 +1,27 @@
+data: data/preprocessed/preprocessed
+save_model: out/model
+log_file: out/log.txt
+
+world_size: 1
+gpu_ranks: 0
+
+save_checkpoint_steps: 1000
+valid_steps: 1000
+train_steps: 20000
+
+src_word_vec_size: 200
+tgt_word_vec_size: 200
+enc_rnn_size: 200
+dec_rnn_size: 200
+
+copy_attn: true
+copy_attn_force: true
+
+batch_size: 32
+valid_batch_size: 32
+
+optim: adam
+learning_rate: 0.001
+
+encoder_type: brnn
+coverage_attn: true
